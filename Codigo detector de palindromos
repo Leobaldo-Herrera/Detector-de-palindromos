@@ -1,0 +1,7 @@
+#Ingresa una palabra, detectará si es un palindromo o no
+palabra = input("Escribe una palabra: ").lower()
+#aquí se pone al revés la palabra y con el if decide si es igual, de lo contrario no es un palindromo
+if palabra == "".join(reversed(palabra)):
+    print("Es un palíndromo")
+else:
+    print("No es un palíndromo")
